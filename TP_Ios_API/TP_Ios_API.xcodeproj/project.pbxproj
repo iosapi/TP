@@ -11,6 +11,8 @@
 		7D6831621E294DC000FB534C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6831611E294DC000FB534C /* AppDelegate.m */; };
 		7D68316A1E294DC000FB534C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6831691E294DC000FB534C /* Assets.xcassets */; };
 		7D68316D1E294DC000FB534C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D68316B1E294DC000FB534C /* LaunchScreen.storyboard */; };
+		7D6831771E29549E00FB534C /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6831751E29549E00FB534C /* SearchViewController.m */; };
+		7D6831781E29549E00FB534C /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D6831761E29549E00FB534C /* SearchViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,9 @@
 		7D6831691E294DC000FB534C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D68316C1E294DC000FB534C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D68316E1E294DC000FB534C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D6831741E29549E00FB534C /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		7D6831751E29549E00FB534C /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		7D6831761E29549E00FB534C /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +58,9 @@
 		7D68315C1E294DC000FB534C /* TP_Ios_API */ = {
 			isa = PBXGroup;
 			children = (
+				7D6831741E29549E00FB534C /* SearchViewController.h */,
+				7D6831751E29549E00FB534C /* SearchViewController.m */,
+				7D6831761E29549E00FB534C /* SearchViewController.xib */,
 				7D6831601E294DC000FB534C /* AppDelegate.h */,
 				7D6831611E294DC000FB534C /* AppDelegate.m */,
 				7D6831691E294DC000FB534C /* Assets.xcassets */,
@@ -131,6 +139,7 @@
 			files = (
 				7D68316D1E294DC000FB534C /* LaunchScreen.storyboard in Resources */,
 				7D68316A1E294DC000FB534C /* Assets.xcassets in Resources */,
+				7D6831781E29549E00FB534C /* SearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D6831621E294DC000FB534C /* AppDelegate.m in Sources */,
+				7D6831771E29549E00FB534C /* SearchViewController.m in Sources */,
 				7D68315F1E294DC000FB534C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
